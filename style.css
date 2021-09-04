@@ -13,6 +13,10 @@
     --font-action: "Mulish", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hamburguer {
     /*background-color: red;*/
     width: 2rem;
@@ -177,7 +181,7 @@
     top: 0;
     right: -20rem;
     transition: all 1s;
-    z-index: 80;
+    z-index: 150;
 }
 
 .show-menu .sidebar {
@@ -558,4 +562,57 @@
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
+}
+
+footer {
+    width: 100%;
+    height: 10rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a {
+    margin: 0 2rem;
+    color: #055e56;
+    font-size: 1.3rem;
+    transition: background-color 1s;
+}
+
+.social-list a :hover {
+    color: #11998e;
+}
+
+.social-list ul {
+    display: flex;
+}
+
+#link-topo {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 0.1rem 0, 6rem #0000009;
 }

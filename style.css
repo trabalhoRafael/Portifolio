@@ -908,7 +908,7 @@ html {
     align-items: center;
     color: #fff;
     border-radius: .3rem;
-    box-shadow: 0 0.1rem 0, 6rem #0000009;
+    box-shadow: 0 0.1rem 0, 6rem #000009;
 }
 
 @media (max-width: 1500px) {

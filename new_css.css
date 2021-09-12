@@ -908,7 +908,7 @@ html {
     align-items: center;
     color: #fff;
     border-radius: .3rem;
-    box-shadow: 0 0.1rem 0, 6rem #0000009;
+    box-shadow: 0 0.1rem 0, 6rem #000009;
 }
 
 @media (max-width: 1500px) {
@@ -1015,6 +1015,19 @@ html {
     .Conhecimentos-img-wrapper img {
         width: 100%;
     }
+    .sessao-orcamento {
+        width: 100%;
+    }
+    .orcamento-wrapper {
+        width: 100%;
+    }
+    .sessao-orcamento img {
+        width: 100%;
+        font-size: 45%;
+    }
+    .sessao-orcamento label {
+        font-size: 2.5rem;
+    }
     .contact-left {
         width: 0;
     }
@@ -1075,7 +1088,21 @@ html {
     .service {
         width: 30rem;
     }
-    .footer {
-        height: 18rem;
+    .sessao-orcamento {
+        width: 100%;
     }
+    .orcamento-wrapper {
+        width: 100%;
+    }
+    .sessao-orcamento img {
+        width: 100%;
+        font-size: 45%;
+    }
+    .sessao-orcamento label {
+        font-size: 2.5rem;
+    }
+}
+
+.footer {
+    height: 18rem;
 }
